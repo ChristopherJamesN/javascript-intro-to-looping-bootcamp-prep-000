@@ -3,7 +3,8 @@ function maybeTrue() {
 }
 
 function forLoop(array) {
-  for (var i = 0; i < 25; i++) {
+  var length = array.length
+  for (var i = 0; i < 25 + length; i++) {
     if (i === 1) {
       array[i] = "I am one strange loop.";
     } else {
